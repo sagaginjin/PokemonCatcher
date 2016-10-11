@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#bcbbf4"
+    android:fadingEdge="vertical"
+    android:scrollbars="vertical"
+    tools:context=".MenuActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <include
+            android:id="@+id/my_toolbar"
+            layout="@layout/tool_bar" />
+
+        <ImageView
+            android:id="@+id/menu_logo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/my_toolbar"
+            android:layout_centerHorizontal="true"
+            android:minHeight="250dp"
+            android:minWidth="250dp"
+            android:src="@mipmap/menu_pic" />
+
+        <Button
+            android:id="@+id/map_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignEnd="@+id/library_button"
+            android:layout_alignParentTop="true"
+            android:layout_below="@+id/menu_logo"
+            android:layout_marginTop="230dp"
+            android:background="@drawable/button"
+            android:text="Map"
+            android:textColor="#fbd21e"
+            android:textSize="18sp" />
+
+        <Button
+            android:id="@+id/library_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/map_button"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="30dp"
+            android:background="@drawable/button"
+            android:text="Library"
+            android:textColor="#fbd21e"
+            android:textSize="18sp" />
+
+        <Button
+            android:id="@+id/help_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/library_button"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="30dp"
+            android:background="@drawable/button"
+            android:text="Help"
+            android:textColor="#fbd21e"
+            android:textSize="18sp" />
+
+        <Button
+            android:id="@+id/about_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/help_button"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="30dp"
+            android:background="@drawable/button"
+            android:text="About"
+            android:textColor="#fbd21e"
+            android:textSize="18sp" />
+
+    </RelativeLayout>
+
+
+</ScrollView>
