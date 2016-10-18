@@ -77,7 +77,7 @@
             android:layout_centerHorizontal="true"
             android:layout_alignParentBottom="true"
             android:layout_marginTop="220dp"
-            android:text="Copyright 2016 Jin. All rights Reserved."
+            android:text="Copyright 2016 Jin Han\nsaga.gin.jin@gmail.com"
             android:textColor="#ffffff"
             android:textSize="15sp" />
 
